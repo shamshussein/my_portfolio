@@ -3,192 +3,492 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hussein Shams - Software Engineer specializing in Flutter, MERN Stack, and mobile app development">
+    <meta name="keywords" content="Software Engineer, Flutter Developer, MERN Stack, Mobile Apps, Web Development">
+    <meta name="author" content="Hussein Shams">
+    <link rel="icon" type="image/jpeg" href="images/business_photo.jpeg">
+    <link rel="shortcut icon" type="image/jpeg" href="images/business_photo.jpeg">
+    <link rel="apple-touch-icon" href="images/business_photo.jpeg">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
-    <title>Portfolio</title>
+    <title>Hussein Shams - Software Engineer & Mobile Developer</title>
 </head>
 <body>
     <div class="background">
-        <header>
-            <p class="name">Hussein Youssef Shams</p>
-            <p class="job_title">Software Engineer</p>
-        </header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <span>Hussein Shams</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name-highlight">Hussein Shams</span>
+                </h1>
+                <p class="hero-subtitle">Software Engineer & Mobile Developer</p>
+                <p class="hero-description">
+                    Specializing in Flutter, MERN Stack, and creating exceptional digital experiences
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="images/business_photo.jpeg" alt="Hussein Shams - Software Engineer" class="profile_picture">
+                </div>
+            </div>
+        </section>
+
         <div class="stars"></div>
         <div class="twinkling"></div>
-    <section class="profile_container">
-        <div class="image_container">
-   <img src="images/business_photo.jpeg" alt="My profile picture" class="profile_picture">
-</div>
 
-<p class="biography">
-    I am currently pursuing to become a proficient MERN stack developer, with a focus on building scalable, user-centric web applications. Through my previous experience as a mobile Flutter developer, I gained strong problem-solving, analytical, and research skills. I also leveraged AI tools like ChatGPT to enhance my ability to find solutions and improve efficiency. I continuously seek to expand my skill set and stay updated with the latest industry trends to create impactful digital experiences.
-</p>
-    </section>
-    <section class="experience_section">
-        <h1>Professional Experience</h1>
-        <div class="experience_container">
-            <ol>
-                    <h2>Internship at TwoOfUs Company</h2>
-                    <p><strong>Position:</strong> MERN Stack Developer Intern</p>
-                    <p><strong>Duration:</strong> Novermber 10, 2024 - Present</p>
-                    <p><strong>Focus:</strong> MERN stack development, cloud computing, and deploying scalable applications.</p>
-                    <p>During my internship, I worked on developing full-stack applications using MongoDB, Express.js, React, and Node.js. I also helped set up cloud environments for deploying applications, optimizing them for performance and scalability.</p>
-                    <p><strong>Key Responsibilities:</strong></p>
-                    <ul>
-                        <li>Building foundational skills in HTML, CSS, JavaScript, and Git through Web101 tasks.</li>
-                        <li>Developing independent projects, including a shipment website and a To-Do List app using React and Node.js, to enhance problem-solving abilities and coding best practices.</li>
-                        <li>Leading a team of 3 to create an E-commerce website, managing task assignments, conducting code reviews, and hosting meetings to ensure workflow efficiency and quality standards.</li>
-                        <li>Collaborating with mentors on React, MongoDB, Express.js, and Node.js exercises, focusing on full-stack development best practices.</li>
-                        <li>Implementing API and JSON integrations using tools like Postman and MongoDB Compass to perform operations (GET, POST) and streamline backend-to-frontend data interactions.</li>
-                    </ul>
-                    <h2>Paid Internship at MegaBee Company</h2>
-                    <p><strong>Position:</strong> Mobile Flutter Developer Intern</p>
-                    <p><strong>Duration:</strong> October 1, 2023 - March 30, 2024</p>
-                    <p><strong>Focus:</strong> Developing mobile applications using Flutter and integrating APIs.</p>
-                    <p>During my six-month paid internship at Megabee, I was responsible for developing mobile applications using Flutter. I gained hands-on experience in building responsive user interfaces, integrating third-party APIs, and ensuring smooth user experiences. I also collaborated closely with the back-end team to ensure seamless integration of the front-end and back-end.</p>
-                    <p><strong>Key Responsibilities:</strong></p>
-                    <ul>
-                        <li>Developed and maintained cross-platform mobile applications using Flutter.</li>
-                        <li>Integrated third-party APIs to enhance app functionality and improve user experience.</li>
-                        <li>Worked closely with the UI/UX team to ensure a smooth and responsive design.</li>
-                        <li>Collaborated with the back-end team to integrate app features with server-side logic.</li>
-                        <li>Performed debugging and troubleshooting to ensure app performance and fix issues.</li>
-                        <li>Attended meetings with clients to get project requirements.</li>
-                    </ul>
-            </ol>
-        </div>
-    </section>
-    <section class="projects_section">
-        <h1>Top Projects Showcase</h1>
-        <div class="projects_container">
-            <div class="project">
-                <div class="project_description">
-                    <h2>Outdoor Adventure Gear Store</h2>
-                    <p>
-                        A web-based application developed as part of techlarious bootcamp and TwoOfUs internship.
-                         The system allows users to browse and purchase several outdoor gear after selecting a category and can select bundles seamlessly. It includes a contact us feature for inquiries.
-                         User can add to cart the selected items and he/she can navigate to checkout after confirming his/her cart.
-                        User can view order history and if order delivered he/she can press on order delivered icon and can send feedback.
-                     </p>
-                    <a href="https://outdooradventuregearstore.netlify.app/" target="_blank" class="project_link">View on Netlify</a>
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-intro">
+                            I'm a dedicated Software Engineer with a passion for developing robust and user-centric applications. 
+                            With experience spanning full-stack development using the MERN stack and cross-platform mobile 
+                            development with Flutter, I bring both technical expertise and leadership skills to every project.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-code"></i>
+                                <h3>Clean Code Advocate</h3>
+                                <p>Committed to writing maintainable, high-quality code with proper documentation and testing.</p>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-users"></i>
+                                <h3>Team Leader</h3>
+                                <p>Experienced in leading development teams and mentoring junior developers.</p>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h3>Mobile Expert</h3>
+                                <p>Specialized in Flutter development with multiple published applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Mobile Apps Published</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Companies Worked With</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="project">
-                <div class="project_description">
-                    <h2>Car-Sales System</h2>
-                    <p>
-                        A web-based application developed as part of a university senior project for the Information System Development course.
-                         The system allows users to browse and purchase cars and exhibitions seamlessly. It includes a contact us feature for inquiries.
-                         Administrators can manage the inventory by adding, deleting, and updating cars and exhibitions through an intuitive admin panel.                    </p>
-                    <a href="https://github.com/shamshussein/car-sales-system.git" target="_blank" class="project_link">View on GitHub</a>
+        </section>
+
+        <section id="experience" class="experience_section">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 2025 - July 2025</div>
+                        <div class="timeline-content">
+                            <h3>Software Engineer</h3>
+                            <h4>AMEDAZ S.A.L, Lebanon</h4>
+                            <ul>
+                                <li>Led client requirement demos and refined user stories for better alignment</li>
+                                <li>Conducted code reviews and mentored junior developers</li>
+                                <li>Implemented security best practices including JWT/OAuth2 authentication</li>
+                                <li>Developed cross-platform mobile applications using Flutter</li>
+                                <li>Designed and consumed REST and GraphQL APIs</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">Nov 2024 - Mar 2025</div>
+                        <div class="timeline-content">
+                            <h3>MERN Stack Developer (Internship)</h3>
+                            <h4>Two of Us L.L.C, Techlarious Academy</h4>
+                            <ul>
+                                <li>Led workshops on mobile applications and user-centric design</li>
+                                <li>Developed shipment website using React and Node.js</li>
+                                <li>Led team of 3 to create E-commerce website</li>
+                                <li>Implemented API integrations using Postman and MongoDB Compass</li>
+                                <li>Promoted user-first mindset in feature development</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jan 2024 - Mar 2024</div>
+                        <div class="timeline-content">
+                            <h3>Mobile Flutter Developer</h3>
+                            <h4>MegaBee S.A.L, Lebanon</h4>
+                            <ul>
+                                <li>Implemented MVVM design pattern for scalable architecture</li>
+                                <li>Collaborated with clients to gather project requirements</li>
+                                <li>Developed and published CheckinWin and Tip Top applications</li>
+                                <li>Integrated Firebase and Google Maps APIs</li>
+                                <li>Used Adobe XD for design collaboration</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">Oct 2023 - Dec 2023</div>
+                        <div class="timeline-content">
+                            <h3>Mobile Flutter Developer (Internship)</h3>
+                            <h4>MegaBee S.A.L, Lebanon</h4>
+                            <ul>
+                                <li>Developed applications using Flutter framework and Dart</li>
+                                <li>Built problem-solving skills through independent work</li>
+                                <li>Created Chrono Tracker and Hooka applications (published on store)</li>
+                                <li>Consistently met project deadlines</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="project">
-                <div class="project_description">
-                    <h2>CheckInWin Application</h2>
-                    <p>
-                        CheckInWin is a mobile application designed to engage users through gamified check-ins and rewards.
-                         While working at MegaBee Company,
-                         I was responsible for maintaining and updating the app to ensure smooth functionality,
-                          enhance user experience, and implement new features.                    </p>
-                    <a href="https://play.google.com/store/apps/details?id=com.check.checkinwin&hl=en" target="_blank" class="project_link">View on app store</a>
+        </section>
+
+        <section id="projects" class="projects_section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-commerce Platform</h3>
+                            <p>Full-featured e-commerce website built with MERN stack. Led a team of 3 developers, implementing modern UI/UX practices and secure payment integration.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Express</span>
+                            </div>
+                            <a href="https://github.com/shamshussein/" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>CheckInWin Mobile App</h3>
+                            <p>Cross-platform mobile application developed with Flutter. Features include location-based check-ins, rewards system, and real-time notifications.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Dart</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Google Maps</span>
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.check.checkinwin&hl=en" target="_blank" class="project-link">
+                                <i class="fab fa-google-play"></i> View App
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Car Sales Management System</h3>
+                            <p>Web-based inventory management system for car dealerships. Features include inventory tracking, sales analytics, and customer management.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">PHP</span>
+                            </div>
+                            <a href="https://github.com/shamshussein/car-sales-system.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Chrono Tracker App</h3>
+                            <p>Time tracking mobile application with productivity analytics. Built with Flutter and published on app stores.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Dart</span>
+                                <span class="tech-tag">SQLite</span>
+                                <span class="tech-tag">Charts</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-google-play"></i> View App
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="skills_section">
-        <h1>Skills Chart</h1>
-        <div class="skills_container">
-            <ul class="skills_list">
-                <li>
-                    <strong>HTML & CSS</strong>: Intermediate
-                </li>
-                <li>
-                    <strong>JavaScript</strong>: Expert
-                </li>
-                <li>
-                    <strong>React</strong>: Intermediate
-                </li>
-                <li>
-                    <strong>MongoDB</strong>: Intermediate
-                </li>
-                <li>
-                    <strong>Express.js</strong>: Intermediate
-                </li>
-                <li>
-                    <strong>Node.js</strong>: Intermediate
-                </li>
-                <li>
-                    <strong>Flutter</strong>: Expert
-                </li>
-                <li>
-                    <strong>Git</strong>: Intermediate
-                </li>
-                <li>
-                    <strong>Cloud Computing</strong>: Beginner
-                </li>
-                <li>
-                    <strong>Searching & Problem-Solving</strong>: Expert
-                </li>
-                <li>
-                    <strong>Ehtical Hacking</strong>: Intermediate
-                </li>
-                <li>
-                    <strong>Communication & Team work</strong>: Expert
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="contact_section">
-        <form class="contact_form" onsubmit="redirectToWhatsApp(event)">
-            <h1>Contact Me</h1>
+        </section>
 
-            <div class="form_group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            </div>
-        
-            <div class="form_group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            </div>
-        
-            <div class="form_group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Write your message" rows="5" required></textarea>
-            </div>
-        
-            <div class="form_group">
-                <label for="source">How did you hear about me?</label>
-                <select id="source" name="source">
-                    <option disabled selected>Select an option</option>
-                    <option value="LinkedIn">LinkedIn</option>
-                    <option value="Friend">Friend</option>
-                    <option value="Other">Other</option>
-                </select>
-            </div>
-        
-            <div class="form_group">
-                <button type="submit" class="submit_button">Send Message</button>
-            </div>
-        </form>
-    </section>
-    <footer>
-        <p>© 2024 Hussein Youssef Shams. All rights reserved.</p>
-        <!-- <div class="social_links">
-            <a href="https://www.instagram.com/yourusername" target="_blank" class="social_icon">
-                <img src="images/instagram-icon.png" alt="Instagram">
-            </a>
-            <a href="https://www.linkedin.com/in/yourusername" target="_blank" class="social_icon">
-                <img src="images/linkedin-icon.png" alt="LinkedIn">
-            </a>
-            <a href="mailto:yourname@gmail.com" target="_blank" class="social_icon">
-                <img src="images/gmail-icon.png" alt="Gmail">
-            </a>
-        </div> -->
-    </footer>    
-</div>
+        <section id="skills" class="skills_section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <span class="skill-name">Flutter</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Dart</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Firebase</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-<script src="script.js" type="text/JavaScript"></script>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Web Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <span class="skill-name">React</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-database"></i> Backend & Database</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <span class="skill-name">MongoDB</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">REST API</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">GraphQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <span class="skill-name">Git</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Cybersecurity</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Team Leadership</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="certifications-section">
+            <div class="container">
+                <h2 class="section-title">Certifications & Awards</h2>
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Code Geek Champion Badge</h3>
+                        <p>Techlarious Program (2024-2025)</p>
+                        <span class="cert-description">Outstanding achievement in programming, problem-solving, and algorithm design</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Cisco Certified Network Associate</h3>
+                        <p>CCNA 1, 2, and 3 (2022-2023)</p>
+                        <span class="cert-description">Expertise in networking concepts, routing protocols, and network troubleshooting</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cybersecurity Workshop</h3>
+                        <p>Hands-on Training (2024)</p>
+                        <span class="cert-description">Kali Linux, penetration testing, and security vulnerability assessment</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact_section">
+            <div class="container">
+                <h2 class="section-title">Let's Work Together</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>I'm always interested in hearing about new opportunities and exciting projects. Let's discuss how we can work together!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Zahle, Beqaa, Lebanon</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>husseinn.shams@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+961 71 607 693</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact_form" onsubmit="handleFormSubmit(event)">
+                        <div class="form-row">
+                            <div class="form_group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form_group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" placeholder="Your email" required>
+                            </div>
+                        </div>
+                        <div class="form_group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject of your message">
+                        </div>
+                        <div class="form_group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+                        </div>
+                        <div class="form_group">
+                            <label for="source">How did you hear about me?</label>
+                            <select id="source" name="source">
+                                <option value="">Select an option</option>
+                                <option value="LinkedIn">LinkedIn</option>
+                                <option value="GitHub">GitHub</option>
+                                <option value="Referral">Referral</option>
+                                <option value="Job Board">Job Board</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="submit_button">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <h3>Hussein Shams</h3>
+                        <p>Software Engineer & Mobile Developer</p>
+                    </div>
+                    <div class="footer-right">
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/hussein-shams" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/shamshussein" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:husseinn.shams@gmail.com" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Hussein Shams. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <style>
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        .success-message {
+            animation: slideIn 0.3s ease-out;
+        }
+    </style>
 </body>
 </html>
