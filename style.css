@@ -41,7 +41,6 @@ body {
     padding: 0 20px;
 }
 
-/* Background and Stars */
 .background {
     min-height: 100vh;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -76,7 +75,6 @@ body {
     100% { transform: translateY(-1000px); }
 }
 
-/* Navigation */
 .navbar {
     position: fixed;
     top: 0;
@@ -151,7 +149,6 @@ body {
     transition: var(--transition);
 }
 
-/* Hero Section */
 .hero-section {
     min-height: 100vh;
     display: flex;
@@ -268,7 +265,6 @@ body {
     object-fit: cover;
 }
 
-/* About Section */
 .about-section {
     padding: 100px 0;
     background: var(--bg-secondary);
@@ -382,7 +378,6 @@ body {
     font-weight: 500;
 }
 
-/* Experience Section */
 .experience_section {
     padding: 100px 0;
     background: var(--bg-primary);
@@ -502,7 +497,6 @@ body {
     font-size: 0.8rem;
 }
 
-/* Projects Section */
 .projects_section {
     padding: 100px 0;
     background: var(--bg-secondary);
@@ -592,7 +586,6 @@ body {
     color: var(--secondary-color);
 }
 
-/* Skills Section */
 .skills_section {
     padding: 100px 0;
     background: var(--bg-primary);
@@ -671,7 +664,6 @@ body {
     transition: width 1s ease-out;
 }
 
-/* Certifications Section */
 .certifications-section {
     padding: 100px 0;
     background: var(--bg-secondary);
@@ -907,7 +899,6 @@ footer {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     .hamburger {
         display: flex;
